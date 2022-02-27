@@ -18,7 +18,7 @@ const ListScreen = () => {
     ];
 
     
-    return <Text>List Screen</Text>
+    return <Text>askanofuenipojn</Text>
 
 }
 
