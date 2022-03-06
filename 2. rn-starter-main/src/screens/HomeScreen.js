@@ -35,7 +35,7 @@ const HomeScreen = ({ navigation }) => {
   />
 
   <Button 
-    title='Color App'
+    title='Color Maker'
     onPress={()=> navigation.navigate('Square')}
   />
 
