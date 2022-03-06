@@ -28,6 +28,17 @@ const HomeScreen = ({ navigation }) => {
     title='Counter'
     onPress={()=> navigation.navigate('Counter')}
   />
+
+  <Button 
+    title='Color Demo'
+    onPress={()=> navigation.navigate('Color')}
+  />
+
+  <Button 
+    title='Color App'
+    onPress={()=> navigation.navigate('Square')}
+  />
+
   </View>
 };
 
@@ -35,6 +46,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 40,
   },
+
 });
 
 export default HomeScreen;
