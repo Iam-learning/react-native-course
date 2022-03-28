@@ -33,11 +33,16 @@ const HomeScreen = ({ navigation }) => {
     title='Color Demo'
     onPress={()=> navigation.navigate('Color')}
   />
-
+{/* 
   <Button 
     title='Color Maker'
     onPress={()=> navigation.navigate('Square')}
   />
+
+  <Button 
+    title='Text Demo'
+    onPress={()=> navigation.navigate('Text')}
+  /> */}
 
   </View>
 };
